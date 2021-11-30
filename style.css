@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-color: khaki;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Balsamiq Sans', serif;
+}
+
+#input{
+    padding: 0.6em 6em;
+    text-align: center;
+    font-family: 'Balsamiq Sans', serif;
+}
+
+#submit{
+    font-family: 'Balsamiq Sans', serif;
+    padding: 0.6em 11.7em;
+    text-align: center;
+    margin-top: 1em;
+    background-color: green;
+    border-color: green; 
+    border-radius: 3px;
+    color: white;
+}
+
+.div-li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    font-family: 'Balsamiq Sans', serif;
+    font-size: 20px;
+    font-weight: 100;   
+}
+
+li{
+    margin: 1em;
+    padding: 0.1em;
+
+}
+
+li:hover{
+    color:white;
+}
