@@ -24,3 +24,10 @@ input.addEventListener("keypress", function (event) {
     }
 })
 
+function myFunction() {
+    var btn=document.querySelector(".nightmode");
+    btn.classList.toggle("night");    
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
+

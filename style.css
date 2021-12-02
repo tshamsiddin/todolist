@@ -3,6 +3,7 @@ body{
     background-color: khaki;
 }
 
+
 .div{
     display: flex;
     flex-direction: column;
@@ -16,6 +17,8 @@ body{
     padding: 0.6em 6em;
     text-align: center;
     font-family: 'Balsamiq Sans', serif;
+    border-color: rgb(97, 56, 150);
+    color:rgb(86, 41, 145);
 }
 
 #submit{
@@ -23,10 +26,10 @@ body{
     padding: 0.6em 11.7em;
     text-align: center;
     margin-top: 1em;
-    background-color: green;
-    border-color: green; 
+    background-color: khaki;
+    border-color: rgb(97, 56, 150); 
     border-radius: 3px;
-    color: white;
+    color: rgb(97, 56, 150);
 }
 
 .div-li{
@@ -52,3 +55,36 @@ li{
 li:hover{
     color:white;
 }
+
+.dark-mode {
+    background-color: grey;
+    color: white;
+}
+
+.nightmode{
+    position: absolute;
+    font-family: 'Balsamiq Sans', serif;
+    bottom: 1vh;
+    right:20vw;
+    text-align: center;
+    background-color: khaki;
+    border-color: rgb(97, 56, 150);
+    border-radius: 5px;
+    padding-right: 6em;
+    padding-left: 6em;
+    color: rgb(97, 56, 150);
+    
+
+}
+
+.night{
+    background-color: grey;
+    color: rgb(255, 255, 255);
+    border-color: rgb(107, 73, 107);
+}
+
+@media only screen and (min-width: 600px) {
+    .nightmode{
+        right: 40vw;
+    }
+  }
